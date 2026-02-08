@@ -334,7 +334,7 @@
 <div class="rounded-3xl border border-gray-100 bg-gray-50 shadow-sm p-6 card-hover flex flex-col">
 <div class="flex items-center gap-2">
 <span class="inline-flex h-8 w-8 items-center justify-center rounded-2xl bg-amber-50">🚲</span>
-<h3 class="font-black text-gray-900">행신/로컬 (Local)</h3>
+<h3 class="font-black text-gray-900">고양시/로컬 (Local)</h3>
 </div>
 <p class="mt-3 text-sm text-gray-600 font-medium leading-relaxed">
       한국의 진짜 일상과 ‘생활 한국어’가 쌓이는 지역
@@ -1076,7 +1076,7 @@
 <div class="text-xs font-black text-indigo-700 uppercase tracking-widest">Infrastructure</div>
 <h3 class="mt-2 text-2xl font-black text-gray-900">촬영/제작 인프라</h3>
 <ul class="mt-4 text-sm text-gray-600 leading-relaxed font-medium space-y-2">
-<li>📍 행신역 앞 촬영 거점 확보 (자전거 맛집 연계)</li>
+<li>📍 고양시 행신역(KTX) 앞 촬영 거점 확보 (자전거 맛집 연계)</li>
 <li>🎥 4K 촬영 및 필드 레코딩 인프라</li>
 <li>⚙️ AI 기반 고속 제작 파이프라인(문장 생성 → 학습송 → 다국어 자막)</li>
 </ul>
@@ -1297,6 +1297,59 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 });
 </script>
+
+
+<section id="thanks" aria-label="Thank you">
+  <div class="thanks-inner">
+    <div class="brand">SYNKO</div>
+    <div class="thanks-main">감사합니다</div>
+    <div class="thanks-list">
+      <div class="thanks-lang">Thank you</div>
+      <div class="thanks-lang">谢谢</div>
+      <div class="thanks-lang">ありがとうございます</div>
+      <div class="thanks-lang">Gracias</div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* ===== THANK YOU SECTION (Readability Improved) ===== */
+#thanks {
+  padding: 120px 20px;
+  background: #f9fbfc;
+  text-align: center;
+}
+#thanks .thanks-inner {
+  max-width: 820px;
+  margin: 0 auto;
+}
+#thanks .brand {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #22c1b6;
+  margin-bottom: 28px;
+}
+#thanks .thanks-main {
+  font-size: 64px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+#thanks .thanks-list { margin-top: 0; }
+#thanks .thanks-lang {
+  font-size: 22px;
+  color: #334155;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+@media (max-width: 768px) {
+  #thanks .brand { font-size: 20px; }
+  #thanks .thanks-main { font-size: 44px; }
+  #thanks .thanks-lang { font-size: 18px; }
+}
+</style>
 
 </body>
 </html>
